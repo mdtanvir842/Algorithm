@@ -9,7 +9,7 @@ int main() {
     optimize();
         vector<int>v={0,0,0,0,0,1,1,1,1,1,1};
         int lo=0;
-        int hi=v.size()-1;
+        int hi=v.size();
         int mid;
         while(lo<hi){
             mid=(lo+hi)/2;
