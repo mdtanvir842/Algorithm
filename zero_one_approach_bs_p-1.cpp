@@ -21,7 +21,7 @@ int main() {
             }
         }
         cout<<"ans0 : "<<lo-1<<endl;
-        cout<<"ans1 : "<<hi<<endl;
+        cout<<"ans1 : "<<lo<<endl;
 
 }
 
