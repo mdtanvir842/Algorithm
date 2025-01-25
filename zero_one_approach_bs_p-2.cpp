@@ -16,7 +16,7 @@ int main() {
     optimize();
         vector<int>v={1,2,3,4,4,5,5,5,6,7};
         int lo=0;
-        int hi=v.size()-1;
+        int hi=v.size();
         int mid;
         int target=5;
         while(lo<hi){
