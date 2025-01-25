@@ -10,7 +10,7 @@ int main() {
         vector<int>v={1,2,3,3,5,5,5,6,7};
         int x=3;
         int lo=0;
-        int hi=v.size()-1;
+        int hi=v.size();
         int mid;
         int ans;
         while(lo<=hi){
