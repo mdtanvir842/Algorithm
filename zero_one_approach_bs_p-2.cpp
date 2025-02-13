@@ -4,7 +4,7 @@ using namespace std;
 typedef long long ll;
 #define endl '\n'
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-int isOk( vector<int>v1,int mid,int x){
+int isOk(const vector<int>&v1,int mid,int x){
     if(v1[mid]<x){
         return 0;
     }
