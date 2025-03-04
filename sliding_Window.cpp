@@ -17,12 +17,12 @@ int main() {
     for(int i=0;i<p;i++){
         ms.insert(x[i]);
     }
-    for(int i=0;i<n-p+1;i++){
+    for(int i=0;i<=n-p;i++){
         int mn=*ms.begin();
         int mx=*ms.rbegin();
         cout<<mn<<" "<<mx<<endl;
         ms.erase(ms.find(x[i]));
-        if(i+p<n){
+        if(i<n-p){
             ms.insert(x[i+p]);
         }
 
