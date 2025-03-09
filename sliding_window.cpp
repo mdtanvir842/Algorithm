@@ -1,3 +1,4 @@
+//find the all greatest and smallest number of all substring in a particular vector.
 #include<bits/stdc++.h>
 using namespace std;
 
